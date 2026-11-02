@@ -54,60 +54,7 @@ The data released by the SDSS is under public domain. Its taken from the current
 - Download date: *Monday 2nd november 2026*
 
 
-## Repository structure
 
-```
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-│   ├── raw/            # Original CSV (or source link + download instructions) — see data/raw/README.md
-│   └── processed/      # Cleaned data / reproducible cleaning script (Week 3)
-├── notebooks/
-│   ├── 01_foundations.ipynb       # Week 1 — done (this is Kael's transferred work)
-│   ├── 02_exploration.ipynb       # Week 2 — stub, TODO
-│   ├── 03_cleaning_analysis.ipynb # Week 3 — stub, TODO
-│   └── 04_visualization.ipynb     # Week 4 — stub, TODO
-├── visuals/             # Exported chart PNGs (Week 4) — TODO
-├── report/
-│   └── final_report.pdf           # Week 5 — TODO
-├── presentation/
-│   └── final_slides.pdf/.pptx     # Week 5 — TODO
-└── docs/
-    ├── data_dictionary.md         # Week 2 — stub, TODO
-    └── cleaning_log.md            # Week 3 — stub, TODO
-```
-
-## How to run
-
-1. Clone this repository.
-2. Create a virtual environment and install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Add the dataset to `data/raw/` — see `data/raw/README.md` for details
-   (the CSV is not committed to this repo yet; it needs to be added by a
-   team member, either directly, via Git LFS, or linked to its source).
-4. Open `notebooks/01_foundations.ipynb` in Jupyter and run the cells in order.
-
-## What's done vs. what's left (as of Week 1 setup)
-
-**Done:**
-- Repository structure created per the assignment brief (section 3).
-- `notebooks/01_foundations.ipynb` populated with Kael's actual Week 1 work:
-  imports, loading the CSV, `df.shape` / `df.info()`, null check, `df.describe()`,
-  and an initial class-distribution count/plot.
-- Objectives and draft research questions documented (above), from Kael's own notebook.
-
-**Still TBD / left as stubs for the team to fill in:**
-- Confirming and documenting the exact dataset source URL, license and download date.
-- Adding the actual CSV to `data/raw/` (or Git LFS / source link).
-- `notebooks/02_exploration.ipynb`, `03_cleaning_analysis.ipynb`, `04_visualization.ipynb` — all future-week work, currently empty stubs.
-- `docs/data_dictionary.md` and `docs/cleaning_log.md` — stubs, to be filled in Weeks 2–3.
-- `visuals/` — empty, charts land here in Week 4.
-- `report/final_report.pdf` and `presentation/final_slides.pdf`/`.pptx` — Week 5 deliverables, not started.
-- Team/member names and assigned roles section (add here once agreed).
 
 ## Team
 

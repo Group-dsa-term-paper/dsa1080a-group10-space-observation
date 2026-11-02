@@ -81,4 +81,4 @@ The data released by the SDSS is under public domain. Its taken from the current
 
 ## Team
 
-*(Add member names and assigned roles here.)*
+Emmanuel mburu - 202609677

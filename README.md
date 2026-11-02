@@ -5,9 +5,6 @@
 **Project option:** 10 — Space Observation and Satellite Data Trends
 **Dataset:** SDSS DR17 stellar classification data (stars / galaxies / quasars)
 
-> Status: Week 1 scaffolding. Sections below are marked **(TBD)** where the work
-> is genuinely not done yet — this repo is being built incrementally over the
-> five weeks of the project, and nothing below claims future-week work is complete.
 
 ## Project description
 
@@ -36,7 +33,7 @@ as a base for automated sky-survey summaries.
 3. How many records were observed per year, and has the class mix changed? (time-series line chart)
 4. Where in the sky are the objects, and do classes cluster differently? (scatter of alpha vs delta)
 5. Which class is brightest or faintest on average in the r band? (groupby)
-6. Bonus: when the same `obj_ID` was observed repeatedly, did the class label always agree?
+
 
 ## Dataset provenance — needs confirmation
 
@@ -44,18 +41,18 @@ The notebook loads a local file named `star_classification.csv` (100,000 rows
 x 18 columns: `obj_ID, alpha, delta, u, g, r, i, z, run_ID, rerun_ID, cam_col,
 field_ID, spec_obj_ID, class, redshift, plate, MJD, fiber_ID`).
 
-This matches a well-known public dataset, likely **"Stellar Classification
+This is a well-known public dataset  **"Stellar Classification
 Dataset - SDSS17"** on Kaggle (curated by fedesoriano, sourced from SDSS DR17).
-**This is an inference and is not yet confirmed** — the assignment brief
-requires the exact source URL, owner, license and download date to be recorded
-and defended, so **Kael/the group needs to verify and fill in the details below**
-before Week 1 submission:
 
-- Source URL: *(TBD — confirm exact Kaggle link)*
-- Owner / creator: *(TBD — believed to be "fedesoriano" on Kaggle)*
-- License: *(TBD — confirm license terms on the Kaggle dataset page)*
-- Download date: *(TBD)*
-- Collection period / limitations: *(TBD)*
+Acknowledgements
+The data released by the SDSS is under public domain. Its taken from the current data release RD17.
+
+
+- Source URL: *https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17*
+- Owner / creator: *fedesoriano *
+  
+- Download date: *Monday 2nd november 2026*
+
 
 ## Repository structure
 

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large / temp data files
+*.tmp
+*.temp
+data/raw/*.csv
+!data/raw/README.md
+data/processed/*.csv
+!data/processed/README.md
+*.zip
+*.tar.gz

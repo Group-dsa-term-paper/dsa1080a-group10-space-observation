@@ -82,4 +82,5 @@ The data released by the SDSS is under public domain. Its taken from the current
 ## Team
 
 Emmanuel mburu - 202609677
+
 Kimberly Nyamate - 202606708
